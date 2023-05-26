@@ -32,6 +32,5 @@ int num = Convert.ToInt32(Console.ReadLine());
         System.Console.WriteLine($"третье число равно  {num}");
     }
     else
-    {
-        System.Console.WriteLine($"в числе {num} нет третьей цифры");
-    }
+            System.Console.WriteLine($"в числе {num} нет третьей цифры");
+    
