@@ -4,4 +4,11 @@
 // 782 -> 8
 // 918 -> 1
 
+System.Console.WriteLine("Введите трехзначное число ");
+int num = Convert.ToInt32(Console.ReadLine());
+int x1 = num/10;
+int x2 = x1%10;
+System.Console.WriteLine($"число {x2}");
+
+
 
